@@ -7,7 +7,7 @@
 ![Vite](https://img.shields.io/badge/Vite-6-646cff?logo=vite&logoColor=fff)
 ![License](https://img.shields.io/badge/license-see%20LICENSE-blue)
 
-## ✨ Features
+## Features
 
 - Search weather by city name.
 - Display current temperature and weather conditions.
@@ -16,7 +16,7 @@
 - URL encoding for city names and basic validation of API responses.
 - Fast local development and production builds with Vite.
 
-## 🧰 Tech stack
+## Tech stack
 
 - React 18
 - Vite 6
@@ -24,7 +24,7 @@
 - OpenWeatherMap Current Weather API
 - Plain CSS
 
-## 🚀 Quick start
+## Quick start
 
 ### Requirements
 
@@ -55,7 +55,7 @@ npm run dev
 
 Open the local URL printed by Vite, normally `http://localhost:5173`.
 
-## 📦 Available commands
+## Available commands
 
 | Command | Description |
 | --- | --- |
@@ -63,17 +63,17 @@ Open the local URL printed by Vite, normally `http://localhost:5173`.
 | `npm run build` | Create the optimized production build in `dist/`. |
 | `npm run preview` | Serve the production build locally. |
 
-## 🔐 Security note
+## Security note
 
 Vite exposes variables prefixed with `VITE_` to browser code. The weather API key is therefore public in the built application. Restrict the key by domain or usage in OpenWeatherMap, and use a backend proxy with server-side secrets if the application requires stronger protection.
 
 Never commit `.env`; use `.env.example` as the configuration template.
 
-## 🧪 Continuous integration
+## Continuous integration
 
 GitHub Actions runs on pushes and pull requests to `main` and verifies that dependencies install and the application builds successfully. See [`.github/workflows/ci.yml`](.github/workflows/ci.yml).
 
-## 📁 Project layout
+## Project layout
 
 ```text
 .
@@ -87,6 +87,6 @@ GitHub Actions runs on pushes and pull requests to `main` and verifies that depe
 └── vite.config.js            # Vite configuration
 ```
 
-## 📄 License
+## License
 
 See [LICENSE](LICENSE).
